@@ -44,6 +44,11 @@ li {
     color: #ffffff;
 }
 
+.mystic {
+    background-color: #ff00ff;
+    color: #000000;
+}
+
 .legendary {
     background-color: #ff8000;
     color: #ffffff;
@@ -79,7 +84,7 @@ li {
 
 .godlike {
     background: linear-gradient(-45deg, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080);
-    background-size: 1000% 100%;
+    background-size: 500% 100%;
     animation: rainbow 100s linear infinite;
 }
 

@@ -23,6 +23,7 @@ export class RarityListComponent {
     {name: 'Rare', color: 'Yellow', colorHex: '#ffff00', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'rare'},
     {name: 'Super Rare', color: 'Blue', colorHex: '#0080ff', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'super-rare'},
     {name: 'Epic', color: 'Purple', colorHex: '#8000ff', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'epic'},
+    {name: 'Mystic', color: 'Magenta', colorHex: '#ff00ff', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'mystic'},
     {name: 'Legendary', color: 'Orange', colorHex: '#ff8000', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'legendary'},
     {name: 'Mythical', color: 'Red', colorHex: '#ff0000', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'mythical'},
     {name: 'Divine', color: 'Cyan', colorHex: '#00ffff', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'divine'},
