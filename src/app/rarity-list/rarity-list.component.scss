@@ -1,0 +1,134 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid var(--back-mid);
+}
+.description {
+    font-size: 0.8em;
+    font-weight: normal;
+    opacity: 0.825;
+}
+
+.common {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.uncommon {
+    background-color: #00ff00;
+    color: #000000;
+}
+
+.rare {
+    background-color: #ffff00;
+    color: #000000;
+}
+
+.super-rare {
+    background-color: #0080ff;
+    color: #ffffff;
+}
+
+.epic {
+    background-color: #8000ff;
+    color: #ffffff;
+}
+
+.legendary {
+    background-color: #ff8000;
+    color: #ffffff;
+}
+
+.mythical {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+.divine {
+    background-color: #00ffff;
+    color: #000000;
+}
+
+.godlike {
+    animation: rainbow 5s linear infinite;
+}
+.omega {
+    animation: rainbow-secondary 5s linear infinite;
+}
+
+.godlike {
+    background: red;
+    color: #000000;
+}
+
+.omega {
+    background-color: #000000;
+    border: 2px solid white;
+    color: white;
+}
+
+.godlike {
+    background: linear-gradient(-45deg, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080);
+    background-size: 1000% 100%;
+    animation: rainbow 100s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {background-position: 1000% 0;}
+    100% {background-position: 0% 0;}
+}
+
+.godlike {
+    border-color: linear-gradient(-45deg, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080, #ffff80, #80ff80, #80ffff, #8080ff, #ff80ff, #ff8080);
+    animation: rainbow 100s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {background-position: 1000% 0;}
+    100% {background-position: 0% 0;}
+}
+
+.omega {
+    animation: rainbow-secondary 5s linear infinite;
+}
+
+@keyframes rainbow-secondary {
+    0% {
+        color: #ff8080;
+        border-color: #ff8080;
+    }
+    17% {
+        color: #ffff80;
+        border-color: #ffff80;
+    }
+    33% {
+        color: #80ff80;
+        border-color: #80ff80;
+    }
+    50% {
+        color: #80ffff;
+        border-color: #80ffff;
+    }
+    67% {
+        color: #8080ff;
+        border-color: #8080ff;
+    }
+    83% {
+        color: #ff80ff;
+        border-color: #ff80ff;
+    }
+    100% {
+        color: #ff8080;
+        border-color: #ff8080;
+    }
+}

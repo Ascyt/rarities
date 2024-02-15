@@ -1,0 +1,9 @@
+<ul>
+    <li *ngFor="let rarity of rarities" [ngClass]="rarity.cssClass">
+        <h2>{{rarity.name}}</h2>
+        <div class="description">
+            <span>Color: {{rarity.color}} ({{rarity.colorHex}})</span><br>
+            <span>Secondary Color: {{rarity.secondaryColor}} ({{rarity.secondaryColorHex}})</span>
+        </div> 
+    </li>
+</ul>
