@@ -8,7 +8,7 @@ import { ThemeSwitcherService } from './theme-switcher/theme-switcher.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, ThemeSwitcherComponent, RouterModule, RouterLinkActive, NgbModule],
+  imports: [CommonModule, RouterOutlet, ThemeSwitcherComponent, RouterModule, NgbModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
