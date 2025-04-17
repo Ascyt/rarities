@@ -1,14 +1,21 @@
 <ul>
     <li *ngFor="let rarity of rarities" [ngClass]="rarity.cssClass">
+        <div class="icons">
+            <span *ngFor="let _ of [].constructor(rarity.iconAmount)">
+                <fa-icon class="m-1" [icon]="rarity.iconClass"></fa-icon>
+            </span>
+        </div> 
+        <div class="abbreviation">
+            <span>
+                {{rarity.abbreviation}}
+            </span>
+        </div>
+
         <h2>{{rarity.name}}</h2>
+
         <div class="description">
             <span>Color: {{rarity.color}} ({{rarity.colorHex}})</span><br>
             <span>Secondary Color: {{rarity.secondaryColor}} ({{rarity.secondaryColorHex}})</span><br>
-            <div class="icons">
-                <span *ngFor="let _ of [].constructor(rarity.iconAmount)">
-                    <fa-icon class="m-1" [icon]="rarity.iconClass"></fa-icon>
-                </span>
-            </div> 
         </div> 
     </li>
     <li class="omega">
