@@ -4,9 +4,11 @@
         <div class="description">
             <span>Color: {{rarity.color}} ({{rarity.colorHex}})</span><br>
             <span>Secondary Color: {{rarity.secondaryColor}} ({{rarity.secondaryColorHex}})</span><br>
-            <span *ngFor="let _ of [].constructor(rarity.iconAmount)">
-                <fa-icon class="m-1" [icon]="rarity.iconClass"></fa-icon>
-            </span>
+            <div class="icons">
+                <span *ngFor="let _ of [].constructor(rarity.iconAmount)">
+                    <fa-icon class="m-1" [icon]="rarity.iconClass"></fa-icon>
+                </span>
+            </div> 
         </div> 
     </li>
     <li class="omega">

@@ -35,6 +35,7 @@ export class RarityListComponent {
     {name: 'Mystic', color: 'Magenta', colorHex: '#ff00ff', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'mystic', iconClass: ['fas', 'gem'], iconAmount: 1},
     {name: 'Legendary', color: 'Orange', colorHex: '#ff8000', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'legendary', iconClass: ['fas', 'gem'], iconAmount: 2},
     {name: 'Mythical', color: 'Red', colorHex: '#ff0000', secondaryColor:'White', secondaryColorHex:'#ffffff', cssClass: 'mythical', iconClass: ['fas', 'gem'], iconAmount: 3},
+    {name: 'Divine', color: 'Cyan', colorHex: '#00ffff', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'divine', iconClass: ['fas', 'gem'], iconAmount: 4},
     {name: 'Godlike', color: 'Rainbow/White', colorHex: 'rainbow/#ffffff', secondaryColor:'Black', secondaryColorHex:'#000000', cssClass: 'godlike', iconClass: ['fas', 'gem'], iconAmount: 5},
     {name: 'Omega I', color: 'Black', colorHex: '#000000', secondaryColor:'Rainbow/White', secondaryColorHex:'rainbow/#ffffff', cssClass: 'omega', iconClass: ['fas', 'crown'], iconAmount: 1},
     {name: 'Omega II', color: 'Black', colorHex: '#000000', secondaryColor:'Rainbow/White', secondaryColorHex:'rainbow/#ffffff', cssClass: 'omega', iconClass: ['fas', 'crown'], iconAmount: 2},

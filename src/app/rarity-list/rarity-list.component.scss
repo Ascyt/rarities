@@ -12,11 +12,18 @@ li {
     font-weight: bold;
     text-align: center;
     border: 2px solid var(--back-mid);
+    position: relative;
 }
 .description {
     font-size: 0.8em;
     font-weight: normal;
     opacity: 0.825;
+}
+.icons {
+    position: absolute;
+    margin: 10px;
+    top: 0;
+    left: 0;
 }
 
 .common {
