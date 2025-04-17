@@ -18,6 +18,13 @@
         <div class="color-info">
             <span>Color: {{rarity.color}} ({{rarity.colorHex}})</span><br>
             <span>Secondary Color: {{rarity.secondaryColor}} ({{rarity.secondaryColorHex}})</span><br>
-        </div> 
+        </div>
+        
+        
+        <div class="item-index">
+            <span>
+                #{{rarity.itemIndex.toString().padStart(2, '0')}}
+            </span>
+        </div>
     </li>
 </ul>
